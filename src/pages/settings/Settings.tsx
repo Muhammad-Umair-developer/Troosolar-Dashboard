@@ -1,4 +1,4 @@
-  import { useState } from "react";
+import { useState } from "react";
 import Admin from "./Admin.tsx";
 import Header from "../../component/Header.tsx";
 import FinancingPartner from "./FinancingPartner.tsx";

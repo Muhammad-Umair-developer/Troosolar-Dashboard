@@ -1,4 +1,4 @@
- import { users as initialUsers, stats } from "../../constants/usermgt";
+import { users as initialUsers, stats } from "../../constants/usermgt";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect, useRef } from "react";
 import { addLoanForNewUser } from "../../component/users/UserLoanData";
@@ -27,7 +27,7 @@ const User_mgt: React.FC = () => {
   });
   const [formError, setFormError] = useState("");
 
-  //  Handle clicks outside dropdowns
+  // Handle clicks outside dropdowns
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
